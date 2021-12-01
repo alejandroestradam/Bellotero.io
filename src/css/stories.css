@@ -1,0 +1,80 @@
+.testimonial {
+  width: 75%;
+  height: 70vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.testimonial h1 {
+  font-size: 2.25rem;
+  background-color: #071eb3;
+  color: white;
+  width: 389px;
+  text-align: center;
+  line-height: 40px;
+  letter-spacing: 0.77px;
+  font-weight: 900;
+}
+.info {
+  display: flex;
+  width: 938px;
+  height: 190px;
+  background-color: white;
+  padding: 2rem;
+}
+.name {
+  width: 405px;
+}
+.name h2 {
+  font-size: 2rem;
+}
+.name p {
+  font-size: 14px;
+  color: #a5a5a5;
+}
+.review {
+  font-size: 24px;
+  font-weight: bold;
+  width: 565px;
+  height: 190px;
+  margin: 0;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+.slider {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: -28px;
+}
+.slider p {
+  background-color: #071eb3;
+  color: #ffffff;
+  font-size: 32px;
+  font-family: "Cormorant Garamond";
+  font-style: italic;
+  line-height: 32px;
+  letter-spacing: 0.69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 56px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 1px;
+}
+.slider button {
+  background-color: #071eb3;
+  color: #ffffff;
+  border: none;
+  width: 60px;
+  height: 56px;
+  font-size: 32px;
+  font-weight: 100;
+  cursor: pointer;
+}
+.slider button:hover {
+  background-color: #1f305e;
+}

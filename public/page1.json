@@ -1,0 +1,23 @@
+{
+    "slider": {
+      "title":  "Our customers love us",
+      "reviews": [{
+        "name": "Pete Zahut",
+        "position": "Chief @ Maniak",
+        "comment": "It's funny what memory does, isn't it? My favorite holiday tradition might not have happened more than once or twice. But because it is such a good memory, so encapsulating of everything I love about the holidays, in my mind it happened every year. Without fail"
+      },{
+        "name": "Alejandro",
+        "position": "React Developer @ Maniak",
+        "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates alias esse distinctio possimus iure repellendus recusandae soluta! Voluptas fugiat at nisi. Praesentium corrupti tenetur placeat! Laudantium placeat quam fugiat laboriosam!"
+      },
+      {
+        "name": "Diana",
+        "position": "Human Resources @ Maniak",
+        "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, possimus dolore! Nisi consequuntur eum aliquam a ad, veritatis reprehenderit non magnam porro dignissimos eveniet quae mollitia laudantium quam numquam dolorum."
+      },{
+        "name": "Jesús",
+        "position": "Chief Developer @ Maniak",
+        "comment": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus asperiores, id inventore quaerat officiis perferendis earum quo voluptates. Quia, molestias sed. Molestiae sit impedit ratione illum quae, saepe eveniet quas."
+      }]
+    }
+  }

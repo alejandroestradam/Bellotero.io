@@ -1,7 +1,7 @@
 <h1 align="center">Tic-Tac-Toe Game</h1>
 
 <div align="center">
-   Technical challenge "Bellotero.io", application created with react, using components, hooks, react router dom, fetch, and CSS. 
+   Technical challenge "Bellotero.io", application created with react, using components, hooks, react router dom, axios, and CSS. 
 </div>
 
 <div align="center">

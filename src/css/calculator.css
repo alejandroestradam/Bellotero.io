@@ -1,0 +1,61 @@
+.calculator {
+  width: 535px;
+  height: 80px;
+  display: flex;
+  flex-direction: column;
+}
+.money {
+  display: flex;
+  justify-content: space-between;
+}
+.number {
+  width: 190px;
+  height: 52px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.smallNumber {
+  height: 52px;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.number p {
+  width: 15px;
+  height: 40px;
+  opacity: 0.24;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.67;
+  letter-spacing: 0.51px;
+}
+.money span {
+  width: 126px;
+  height: 32px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.number span {
+  width: 125px;
+  height: 40px;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.11;
+  letter-spacing: 0.77px;
+  text-align: right;
+}
+#span {
+  width: 67px;
+  height: 52px;
+  background-color: white;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 36px;
+  font-weight: 500;
+  line-height: 1.11;
+  letter-spacing: 0.77px;
+}

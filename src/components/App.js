@@ -5,8 +5,8 @@ import Blog from './Blog';
 import Home from './Home';
 import Navbar from './Navbar';
 import Partners from './Partners';
-import Solutions from './Solutions';
-import Stories from './Stories';
+import Configurator from './Configurator';
+import Testimonial from './Testimonial';
 
 
 const App = () => {
@@ -14,11 +14,11 @@ const App = () => {
     <Router>
           <Navbar />
           <Switch>
-            <Route path ="/solutions">
-                <Solutions />
+            <Route path ="/page-1">
+                <Testimonial />
             </Route>
-            <Route path ="/stories">
-                <Stories />
+            <Route path ="/page-2">
+                <Configurator />
             </Route>
             <Route path ="/partners">
                 <Partners />

@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import '../css/Slider.css';
+
 const Slider = () => {
     const [post,setPost]=React.useState([]);
     const [current, setCurrent] = React.useState(0);

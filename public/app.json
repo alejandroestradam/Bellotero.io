@@ -1,6 +1,5 @@
 {
-    "menu": {
-      "items": [
+    "menu":[
         {
           "text": "Home",
           "route": "/"
@@ -26,5 +25,4 @@
           "route": "/blog"
         }
       ]
-    }
   }

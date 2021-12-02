@@ -1,9 +1,9 @@
 import React from 'react';
-import "../css/stories.css";
+import "../css/testimonial.css";
 import axios from 'axios';
 import Slider  from './Slider';
 
-const Stories = () => {
+const Testimonial = () => {
     const [post,setPost]=React.useState([]);
 
     React.useEffect(() => {
@@ -23,4 +23,4 @@ const Stories = () => {
     )
 }
 
-export default Stories
+export default Testimonial;

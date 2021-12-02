@@ -1,0 +1,78 @@
+.sliders {
+  position: relative;
+  width: 1002px;
+  height: 254px;
+}
+.slide {
+  position: absolute;
+  display: flex;
+  width: 938px;
+  height: 190px;
+  background-color: white;
+  padding: 2rem;
+  opacity: 0;
+  border-top: none;
+}
+.active {
+  opacity: 1;
+}
+.name {
+  width: 405px;
+}
+.name h2 {
+  font-size: 2rem;
+  width: 158px;
+  height: 48px;
+  margin: 0;
+}
+.name p {
+  font-size: 14px;
+  color: #a5a5a5;
+  margin: 0;
+}
+.review {
+  font-size: 24px;
+  font-weight: bold;
+  width: 565px;
+  height: 190px;
+  margin: 0;
+  line-height: 32px;
+  letter-spacing: 0;
+}
+
+.slider {
+  display: flex;
+  position: relative;
+  top: -28px;
+  left: 800px;
+}
+.slider p {
+  background-color: #071eb3;
+  color: #ffffff;
+  font-size: 32px;
+  font-family: "Cormorant Garamond";
+  font-style: italic;
+  line-height: 32px;
+  letter-spacing: 0.69px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 56px;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 1px;
+}
+.slider button {
+  background-color: #071eb3;
+  color: #ffffff;
+  border: none;
+  width: 60px;
+  height: 56px;
+  font-size: 32px;
+  font-weight: 100;
+  cursor: pointer;
+}
+.slider button:hover {
+  background-color: #1f305e;
+}

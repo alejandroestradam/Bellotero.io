@@ -1,29 +1,21 @@
 import React from 'react';
 import '../css/solutions.css';
 import Slider from '@mui/material/Slider';
+import axios from 'axios';
 
 const Solutions = () => {
     const [money, setMoney] = React.useState('0');
     const [employees, setEmployees] = React.useState('0');
-    const [data,setData]=React.useState([]);
+    const [post,setPost]=React.useState([]);
 
-  const getData=()=>{
-    fetch('./page2.json'
-    ,{  headers : { 
-        'Content-Type': 'application/json',
-        'Accept': 'application/json'
-       }
-    }
-    ).then(function(response){
-        return response.json();
-      }
-      ).then(function(myJson) {
-        setData(myJson);
-      });
-  }
-  React.useEffect(()=>{
-    getData()
-  },[]);
+   React.useEffect(() => {
+        axios.get("./page2.json")
+        .then(res=>{
+            setPost(res.data.calculator);
+        }).catch(err =>{
+            console.log(err);
+        })
+    }, []);
 
     function handleChangeMoney(event){
       setMoney(event.target.value);
@@ -35,8 +27,8 @@ const Solutions = () => {
     return (
         <section className="configurator">
             <article className="inf">
-                <h1 className="save">{data.calculator.title}</h1>
-                <p>{data.calculator.description}</p>
+                <h1 className="save">{post.title}</h1>
+                <p>{post.description}</p>
             </article>
             <article className="calculators">
                 <div className="both">

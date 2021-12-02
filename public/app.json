@@ -2,20 +2,28 @@
     "menu": {
       "items": [
         {
+          "text": "Home",
+          "route": "/"
+        },
+        {
           "text": "Testimonial",
-          "route": "page-1"
+          "route": "/page-1"
         },
         {
           "text": "Configurator",
-          "route": "page-2"
+          "route": "/page-2"
         },
         {
-          "text": "Stories",
-          "route": "#"
+          "text": "Partners",
+          "route": "/partners"
         },
         {
           "text": "About",
-          "route": "#"
+          "route": "/about"
+        },
+        {
+          "text": "Blog",
+          "route": "/blog"
         }
       ]
     }
